@@ -24,7 +24,12 @@ npm install
 npm run dev
 
 ```
-
+## Home Page Dark
+![home page](./images/homepagedark.png)
+## Home Page Light
+![home page](./images/homepagelight.png)
+## Products Page
+![Products Page](./images/products.png)
 ##📂 Project Structure
 <ecom_next>
 └── ecom_next
@@ -98,3 +103,4 @@ npm run dev
             ├── whatsapp.png
             └── youtube.png
 </ecom_next>
+
