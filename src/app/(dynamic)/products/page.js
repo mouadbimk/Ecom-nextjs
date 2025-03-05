@@ -5,7 +5,7 @@ export const metadata = {
     title: "Hexa Shop - Products Page",
     description: "Your one stop shop for all your needs. We have everything you need from electronics to groceries.",
   }
-const apiUrl = process.env.NEXT_PUBLIC_PRODUCTS_API_URL;
+const apiUrl = https://dummyjson.com/products;
     async function getProducts(){
         const res = await fetch(`${apiUrl}`);
         if(!res.ok){
