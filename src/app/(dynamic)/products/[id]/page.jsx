@@ -2,7 +2,7 @@ import Image from "next/image";
 import styles from "./Product.module.css";
 
 async function getDetailsPost(id){
-    const apiUrl = process.env.NEXT_PUBLIC_PRODUCTS_API_URL;
+    const apiUrl = https://dummyjson.com/products;
     const res = await fetch(`${apiUrl}/${id}`);
     if(!res.ok){
         throw new Error('Failed to fetch data');
