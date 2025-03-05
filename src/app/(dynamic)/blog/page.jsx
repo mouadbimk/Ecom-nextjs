@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import styles from './Blogs.module.css';
-const apiKey = process.env.NEXT_PUBLIC_API_KEY;
-const urlApi = process.env.NEXT_PUBLIC_BLOG_API_URL
+const apiKey = 1a9d307bb56c4105bf57ea00aef7bbcc;
+const urlApi = https://newsapi.org/v2/everything?q=tesla&from=2025-02-05&sortBy=publishedAt;
 async function getBlogs(){
     const blogs = await fetch(`${urlApi}&apiKey=${apiKey}`);
     if(!blogs.ok){
